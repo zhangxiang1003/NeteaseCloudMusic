@@ -1,5 +1,5 @@
 import ajax from './ajax.js';
-let baseUrl = "http://musicapi.leanapp.cn";
+let baseUrl = "https://musicapi.leanapp.cn";
 export default {
     /* 搜索页面接口 */
     //1.热门搜索接口
