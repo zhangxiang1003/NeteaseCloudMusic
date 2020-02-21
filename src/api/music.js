@@ -1,5 +1,5 @@
 import ajax from './ajax.js';
-let baseUrl = "http://localhost:3000";
+let baseUrl = "http://musicapi.leanapp.cn";
 export default {
     /* 搜索页面接口 */
     //1.热门搜索接口
@@ -80,7 +80,7 @@ export default {
     /* 音乐播放页面 */
     //1.获取音乐播放url
     getSongplayUrl(id) {
-        return ajax(baseUrl + '/song/url', { id })
+        return ajax(baseUrl + '/music/url', { id })
     },
     //2.获取音乐单曲详情
     getsongDetail(ids) {
