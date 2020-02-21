@@ -7,7 +7,8 @@
     <div class="banner">
       <van-swipe :autoplay="3000">
         <van-swipe-item v-for="(item) of banners" :key="item.id">
-          <img :src="item.picUrl" @click="BannerDetail(item.targetId)" />
+          <img :src="item.picUrl" />
+          <!-- @click="BannerDetail(item.targetId)" -->
         </van-swipe-item>
       </van-swipe>
     </div>
@@ -56,7 +57,7 @@
       </div>
       <div class="bottom">
         <new-album v-if="albums.length" :sendData="albums"></new-album>
-      </div> -->
+      </div>-->
     </div>
   </div>
 </template>
