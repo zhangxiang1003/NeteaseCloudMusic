@@ -6,7 +6,7 @@ axios.interceptors.request.use(
         Toast.loading({
             duration: 5000, // 持续展示 toast
             forbidClick: true,
-            message: '加载中'
+            message: '正在努力加载'
         });
         return config;
     },
